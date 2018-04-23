@@ -1,12 +1,17 @@
 # 3d-book-page
-＝＝＝＝＝＝＝＝＝＝
-点击翻页按钮后想要执行的操作可以放在 index after：function(){} 中  之前放 before：function(){} 中<br>
-具体可查看 api   http://builtbywill.com/booklet/<br>
-可设置参数如下：<br>
-$mybook.show().booklet({
-     name:               null,                            // name of the booklet to display in the document title bar
-     width:              800,                             // container width
-     height:             500,                             // container height
+点击翻页按钮后想要执行的操作可以放在 index after：function(){} 中  之前放 before：function(){} 中\<br>
+
+具体可查看 api   http://builtbywill.com/booklet/ \<br>
+
+可设置参数如下：\<br>
+
+$mybook.show().booklet({     \<br>
+
+     name:               null,                            // name of the booklet to display in the document title bar  \<br>
+     
+     width:              800,                             // container width \<br>
+     
+     height:             500,                             // container height \<br>
      speed:              600,                             // speed of the transition between pages
      direction:          'LTR',                           // direction of the overall content organization, default LTR, left to right, can be RTL for languages which read right to left
      startingPage:       0,                               // index of the first page to be displayed
